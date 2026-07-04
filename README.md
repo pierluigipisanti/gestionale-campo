@@ -1,13 +1,30 @@
-# Gestionale Campo di Accoglienza
+# Gestionale Campo di Accoglienza — segreteria da campo per la Protezione Civile
 
-Segreteria digitale per un campo di accoglienza di Protezione Civile.
-Gestisce il ciclo **ospite → check-in → posto → presenze → report**.
+**Software per la segreteria da campo di un campo di accoglienza di Protezione Civile.**
+Gestisce l'intero ciclo **persona → check-in → posto tenda → presenze → report**, più il
+**registro del varco** per chi transita senza alloggiare.
 
 Codice aperto (source-available, uso **non commerciale**), a disposizione della community.
 
 Pensato per l'uso **offline in emergenza** e per un'installazione **semplice** su un PC
 in campo. Tutto server-rendered (Blade), CSS/JS inline, **nessun asset esterno né build
 npm**, così funziona senza rete.
+
+> 📖 Perché l'ho scritto e a chi serve:
+> [articolo sul blog](https://volipindarici.com/blog/gestionale-campo-protezione-civile/).
+> È in **beta**: cerco gruppi comunali e associazioni di Protezione Civile che lo provino —
+> sono aperto a modifiche. Apri una issue o scrivimi dalla
+> [pagina Contatti](https://volipindarici.com/contatti).
+
+## Cosa fa
+
+- **Anagrafica persone alloggiate** (ospiti, volontari, sanitari) con nuclei familiari
+- **Check-in / check-out / trasferimento** con lettura documento (CIE, passaporto, tessera) e storico movimenti
+- **Struttura del campo a griglia**: settore → fila → tenda → posto, con occupazione in tempo reale
+- **Presenze giornaliere** di chi alloggia
+- **Registro del varco / accessi**: chi entra ed esce senza dormire — risponde subito a "chi è dentro il campo adesso?"
+- **Report PDF/CSV** e stampe (cartelli tenda, elenchi)
+- **2 ruoli**: amministratore e operatore
 
 ## Schermate
 
