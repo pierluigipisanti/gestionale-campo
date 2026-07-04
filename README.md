@@ -94,6 +94,7 @@ Libero da usare, modificare e ridistribuire **per scopi non commerciali**, con
 | Documento | Contenuto |
 |---|---|
 | [CHANGELOG.md](CHANGELOG.md) | Storico delle versioni |
+| [docs/ROADMAP.md](docs/ROADMAP.md) | Cosa arriva dopo (near/mid/later) |
 | [docs/INSTALL.md](docs/INSTALL.md) | Guida installazione Linux/Windows, admin, dati demo |
 | [docs/fase-0.md](docs/fase-0.md) | Perimetro effettivo della prima fase + decisioni prese |
 | [docs/analisi-tecnica-iniziale.md](docs/analisi-tecnica-iniziale.md) | Analisi completa di partenza (visione ampia, da cui la fase 0 è un sottoinsieme) |
